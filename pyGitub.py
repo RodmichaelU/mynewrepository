@@ -1,7 +1,7 @@
 from github import Github
 
 # or using an access token
-g = Github("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")
+g = Github("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")
 repo = g.get_repo("adriannejulie/mynewrepository")
 
 main_branch = repo.get_branch('main')
